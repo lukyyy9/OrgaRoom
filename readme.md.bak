@@ -1,0 +1,13 @@
+Nom des membres du groupes :
+
+- Azuelos Shad
+- Buonocore Lucas
+
+Description du projet :
+
+Le projet consiste à créer une solution de réservation de salles. Ce dernier permettra donc à l'utilisateur de réserver une salle de réunion mais également d'en créer une, de 
+modifier les salles existantes et de les supprimer.
+
+Instruction pour lancer le projet :
+
+- Run le fichier MainApplication.java

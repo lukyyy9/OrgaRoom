@@ -1,0 +1,17 @@
+Stratégie de gestion de branches :
+
+Pour la gestion des branches de notre projet, nous avons choisis de nous inspirer du modèle Git-Flow mais nous l'avons grandement simplifié pour que cela corresponde plus aux
+besoin du projet.
+Etant donné la taille du projet, nous avons jugé que 2 branches, master et dev, seraient suffisantes.
+Nous travaillons principalement sur la branche dev, elle sert à développer de nouvelles fonctionnalités et à corriger les bugs qui pourraient survenir. Une fois que nous jugeons
+être parvenu à une version satisfaisante et plus avancée du projet, on merge la branche dev vers la branche master.
+
+Règles pour garantir la lisibilité du code :
+
+- Le nom des classes commencent par une majuscule, si la classe est composée de plusieurs mots, tous les mots commencent par des majuscules.
+- Le nom des méthodes commencent par une minuscule, si la méthode est composée de plusieurs mots, les mots suivants commencent par une majuscule.
+- Une méthode ayant pour objectif de récupérer la valeur d'un champ doit commencer par get.
+- Une méthode ayant pour objectif de mettre à jour la valeur d'un champ doit commencer par set.
+- Le nom d'une variable doit commencer par une minuscule, si la variable est composée de plusieurs mots, les mots suivants commencent par une majuscule.
+- Le controller d'une page doit avoir le même nom que la page elle-même, à l'exception de l'extension.
+- En début de fichier, un commentaire doit donner les informations de base sur le fichier et expliquer son utilité.
