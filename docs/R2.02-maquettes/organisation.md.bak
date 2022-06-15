@@ -1,6 +1,0 @@
-Organisation du développement de l'IHM :
-
-- Le fichier permettant de lancer l'application est le MainApplication.java. La fenêtre principale de l'application est définie dans ce fichier.
-- Chaque page a son propre fichier .fxml dans lesquels l'interface graphique (boutons, menu etc.) est définie.
-- Chaque fichier .fxml a son propre controller dans lesquels les évènement liés aux boutons, menus etc. sont définis.
-- 
